@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav p{
+    color: #35de8e;
+    font-weight: 600;
+}
+.nav img{
+    width: 80px;
+    padding: 40px;
+}
+.name{
+    padding: 40px;
+}
+.request{
+    display: flex;
+    justify-content: space-evenly;
+}
+.request p{
+    color: #929a9c;
+    font-weight: 600;
+}
+.request button{
+    background-color: #8122a7;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    color: white;
+    border-width: 0px;
+    font-weight: 550;
+    font-size:small;
+    cursor: pointer;
+}
+.etoile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.etoile p{
+    color: #929a9c;
+    font-weight: 600;
+}
+.etoile img{
+    width: 150px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    gap: 70px;
+    
+
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 0.8fr);
+    justify-items: center;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    margin: auto 20px;
+    
+}
+.about-1{
+    background-color: d6d6d6;
+    width: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.app{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px;
+}
+
+.for{
+    background-color: #8122a7;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    border-width: 0px;
+    font-weight: 550;
+    font-size:small;
+    width: 165px;
+    cursor: pointer;
+}
+.for:hover {
+    background-color: #6a1b9a;
+}
+button:hover {
+    background-color: #6a1b9a; /* Slightly darker purple */
+    color: #f0f0f0; /* Light color for text */
+    transform: scale(1.05); /* Slight zoom effect */
+}
